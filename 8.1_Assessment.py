@@ -14,6 +14,6 @@ try:
     for i in accounts:
         I = i.split(',')
         if I[0] in due:
-            print(i)
+            print(i.strip("\n)
 except FileNotFoundError:
     print(f"{errorfile} does not exist.")
